@@ -1,0 +1,65 @@
+#operator_btns{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 200px;
+    border: 1px solid black;
+    padding: 50px 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 12px rgba(131,131,131, 0.6);
+    margin: 50px auto;
+}
+#operatop_btns button{
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    text-align: center;
+}
+#operator_btns button:hover{
+    color: white;
+    background-color: blue;
+    transition: 1s;
+}
+input{
+    font-size: 22px;
+    width: 120px;
+text-align: center;
+display: block;
+margin: 0 auto;
+border-radius: 10px ;
+border: 1px solid blueviolet;
+background-color: blueviolet;
+padding: 3px 5px;
+color: white;
+}
+#result_btn{
+    display: block;
+    margin: 25px auto;
+    margin-bottom: 0;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+#result_btn:hover{
+transition: 1s;
+background-color: red;
+}
+#result{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-style: italic;
+}
+
+@media(max-width:600px)  {
+    
+}
